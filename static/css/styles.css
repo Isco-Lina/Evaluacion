@@ -1,0 +1,128 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+    background-color: #f4f4f4; /* Color de fondo claro */
+    text-align: center; /* Centra texto de manera predeterminada */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #dbdbdb; /* Color de fondo gris claro */
+    padding: 2rem 1rem; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el encabezado */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    transition: all 0.3s ease; /* Transición suave en los cambios */
+}
+
+/* Efecto al pasar el cursor sobre el encabezado */
+header:hover {
+    background-color: #c4c4c4; /* Cambia el color de fondo */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 500px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto al pasar el cursor sobre el contenedor */
+.container:hover {
+    transform: translateY(-5px); /* Eleva el contenedor */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 10px; /* Espaciado superior */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+}
+
+/* Efecto al pasar el cursor sobre los botones */
+button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el cursor */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+/* Estilo para los campos de entrada del formulario */
+form input {
+    width: calc(100% - 20px); /* Ajusta el ancho para incluir relleno */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra interna */
+    transition: box-shadow 0.3s ease; /* Transición suave en foco */
+}
+
+/* Efecto al enfocar un campo de entrada */
+form input:focus {
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5); /* Resalta el campo */
+    border-color: #007bff; /* Cambia el color del borde */
+}
+
+/* Estilo para las etiquetas de los formularios */
+form label {
+    display: block; /* Alinea las etiquetas como bloques */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-bottom: 5px; /* Espaciado inferior */
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilo para las secciones */
+section {
+    margin: 20px auto; /* Espaciado externo y centra horizontalmente */
+    max-width: 500px; /* Ancho máximo */
+    cursor: pointer; /* Cambia el cursor al pasar sobre la sección */
+}
+
+/* Efecto al pasar el cursor sobre las secciones */
+section:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3); /* Sombra adicional */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #222; /* Fondo oscuro */
+    padding: 3rem; /* Espaciado interno */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilo para las secciones dentro del pie de página */
+footer section {
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Estilo para el texto del pie de página */
+footer p {
+    margin: 0; /* Sin espaciado */
+}
+
+/* Estilo para los enlaces en el pie de página */
+footer a {
+    transition: color 0.3s ease; /* Transición suave en el color */
+    color: #fff; /* Color blanco por defecto */
+    text-decoration: none; /* Sin subrayado */
+    margin: 5px; /* Espaciado entre enlaces */
+    display: inline-block; /* Muestra como bloques en línea */
+}
+
+/* Efecto al pasar el cursor sobre los enlaces del pie de página */
+footer a:hover {
+    color: cornflowerblue; /* Cambia el color a azul claro */
+}
+
+
